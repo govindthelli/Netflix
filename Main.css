@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #111;
+    color: #fff;
+  }
+  nav{
+      display: flex;
+      justify-content: space-between;
+      margin: 2% 4%;
+      background-color: transparent;
+      position: fixed;
+  }
+  nav img {
+    object-fit: contain;
+    width: 150px;
+  }
+  
+  nav ul {
+      display: flex;
+      list-style: none;
+      padding: 15px 25px;
+      cursor: pointer;
+  }
+  nav ul li{
+      padding: 0px 20px;
+      color: #d3d0d0;
+      transition: 0.6s;
+  }
+  nav ul li:hover{
+      color: #fff;
+  }
+  
+  nav .nav-right a{
+      text-decoration: none;
+      color: #d3d0d0;
+      padding: 15px 15px;
+      font-size: 1.0rem;
+      transition: 0.6s;
+  
+  }
+  nav .nav-right a:hover{
+      color: #fff;
+  }
+  nav .nav-right{
+      display: flex;
+      margin: 0 0 0 400px;
+  }
+  .nav-right .profile img{
+      object-fit: contain;
+      width: 50px;
+      margin: -15px 0 0 0;
+      border-radius: 10px ;
+  }
+  .nav-right .profile{
+      display: flex;
+  }
+  .banner video{
+      width: 100%;
+  }
+  section .posters{
+      display: flex;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      margin:1% 2%; 
+  }
+  section .posters::-webkit-scrollbar{
+      display: none;
+  }
+  section .posters .poster-title .poster{
+      height: 180px;
+      margin: 0% 5px;
+      transition: transform 420ms;
+  }
+  section .posters .poster:hover{
+      transform: scale(1.09);
+  }
+  section h1{
+      color: #fff;
+      font-size: 2.3rem;
+      font-weight: 700;
+      padding: 1% 2%;
+  }
+  section .posters .poster-title h3{
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: #ffff;
+      text-align: center;
+  
+  }
+  
+  footer{
+      padding: 50px 15% 10px;
+      border-top: 5px solid #333;
+      color: #666;
+  }
+  footer h1{
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      margin-bottom: 30px
+  }
+  footer .column{
+      margin: 10px 50px;
+  }
+  footer .row{
+      display: flex;
+      align-items: flex-start;
+      padding: 10px 0px;
+  }
+  footer .column a{
+      text-decoration: none;
+      color: #666;
+      font-size: 15px;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      padding: 10px 0px;
+  }
+  .language{
+      background: transparent;
+      border: 2px solid #666;
+      font-size: 1rem;
+      color: #666;
+      border-radius: 3px;
+      margin: 10px 50px;
+      padding: 4px;
+  
+  }
+  footer h3{
+      margin: 10px 50px;
+      font-size: 15px;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  i{
+      padding: 4px;
+  
+  }
+  .banners{
+      margin: -12% 0 0 0;
+  }

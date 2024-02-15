@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(assets/jpg/login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0%;
+    align-items: center;
+    height: 80px;
+}
+nav .image{
+    width: 180px;
+}
+nav div{
+    margin-right: 50px;
+}
+nav button{
+    border: none;
+    outline: none;
+}
+nav div .language{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    line-height: 1.25rem;
+    background-color:black;
+    margin-right: 10px;
+}
+nav div .sign-in{
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+    padding: 7px 14px;
+    line-height: 1.25rem;
+}
+nav div .sign-in:hover{
+    background-color: rgb(180,0,0);
+}
+nav button i{
+    padding-left: 10px;
+}
+nav button svg{
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.header .header-title{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.header .header-title h1{
+    font-size: 3rem;
+    font-weight: 700px;
+    line-height: 70px;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+.header .header-title h3{
+    font-size: 2rem;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.header .header-title p{
+    font-size: 1.2rem;
+}
+.header .header-title .email-form{
+    margin-top: 20px;
+}
+.header .header-title .email-form input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    width: 50%;
+    height: 2.4rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+.header .header-title .email-form button{
+    background-color: rgb(220,0,0);
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10.5px 30px;
+    border-radius: 3px;
+    height: 2.4rem;
+}
+.email-form input::placeholder{
+    font-size: 1rem;
+    font-weight: 400px;
+    padding: 0 10%; 
+}
+.container{
+    display: flex;
+}
+.container-title{
+    padding: 10% 6%;
+}
+.container .image1{
+    margin-right: 10rem;
+    height: 400px;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.container .container-title h1{
+    font-size: 2.5rem;
+    font-weight: 600px;
+    padding-left: 20%;
+}
+.container .container-title p{
+    font-size: 1.3rem;
+    font-weight: 400px;
+    max-width: 100%;
+    padding-left: 20%;
+    padding-top: 3%;
+}
+.container .image2{
+    margin-left: 10rem;
+    height: 400px;
+    max-width: 100%;
+}
+.container .container-title .para{
+    margin-right: 7.5rem;
+}
+.minibar{
+    max-width: 100%;
+    height: 8px;
+    background-color: #222;
+}
+.FAQ{
+    padding: 20px 10%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.FAQ h1{
+    font-weight: 700px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.FAQ ul{
+    margin: 60px auto;
+    max-width: 1050px;
+    width: 100%;
+}
+.FAQ ul li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.FAQ ul li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    font-weight: 500px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 3px;
+}
+.FAQ ul li label::after{
+    content: '+';
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+.FAQ .content{
+    background-color: #434141;
+    text-align: center;
+    padding: 0% 2%;
+    max-height: 0;
+    overflow: hidden;
+}
+.footer-title{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    margin-left: 400px;
+    padding-bottom: 40px;
+}
+.footer-title p{
+    font-size: 1.2rem;
+}
+.footer-title .email1-form{
+    margin-top: 20px;
+}
+.footer-title .email1-form input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    width: 50%;
+    height: 2.4rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+.footer-title .email1-form button{
+    background-color: rgb(220,0,0);
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10.5px 30px;
+    border-radius: 3px;
+    height: 2.4rem;
+}
+.email1-form input::placeholder{
+    font-size: 1rem;
+    font-weight: 400px;
+    padding: 0 10%; 
+}
+/* ==footer=== */
+
+footer{
+    padding: 50px 14% 10px;
+    border-top: 5px solid #333;
+    color: #666;
+    margin-top: 150px;
+}
+footer h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+footer .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 0px 0px 10px;
+}
+footer select{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    padding: 15px 20px;
+    margin: 5px;
+    background-color: #111;
+    border: 1px solid #666;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+footer  .ftrbtn{
+    background: transparent;
+    border: 3px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius:5px ;
+    padding: 3px 4px;
+}
+footer .ftrhd{
+    color: #666;
+    margin: 10px 0px;
+    font-size: 1rem;
+}
+footer i{
+    padding: 4px ;
+}
