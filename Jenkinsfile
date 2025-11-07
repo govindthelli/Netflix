@@ -3,6 +3,8 @@ pipeline {
   stages{
     stage('build'){
       steps{
+        sh 'docker rm -f $(docker ps -aq) || true'
+        sh 'docker rmi -f $(docker images -aq) || true'
         sh 'docker build -t test .'
       }
     }
