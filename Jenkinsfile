@@ -3,12 +3,12 @@ pipeline {
   stages{
     stage('build'){
       steps{
-        sh 'docker build .'
+        sh 'docker build -t test .'
       }
     }
     stage('run'){
       steps{
-        sh 'docker run -p 8000:8000'
+        sh 'docker run --name demo -p 8000:8000 test'
       }
     }
   }
